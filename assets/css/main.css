@@ -11,6 +11,6 @@
 @layer base {
   html {
     font-family: Vazirmatn;
-    @apply text-[16px] scroll-smooth overflow-x-hidden;
+    @apply text-[16px] text-neutral-800 scroll-smooth overflow-x-hidden;
   }
 }
