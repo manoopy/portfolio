@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <NuxtLink :to="`/projects/${index}`">
+  <NuxtLink :to="`/projects/${data.id}`">
     <div class="overflow-hidden h-56 group relative shadow">
       <img
         :src="getImageUrl(data.image)"
